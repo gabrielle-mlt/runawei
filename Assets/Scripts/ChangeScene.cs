@@ -12,7 +12,7 @@ public class ChangeScene : MonoBehaviour
         SceneManager.LoadScene(sName);
 
         // if scene === "map"
-        // reset map
+        // reset map    
     }
 
     public void ExitPressed()

@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 
 public class DoorLock : MonoBehaviour
@@ -12,6 +13,8 @@ public class DoorLock : MonoBehaviour
     [SerializeField] GameObject Left;
     [SerializeField] GameObject Right;
     [SerializeField] GameObject Tel;
+    [SerializeField] GameObject WinMenu;
+    [SerializeField] GameObject Timer;
 
     void Start()
     {
@@ -27,6 +30,8 @@ public class DoorLock : MonoBehaviour
         if(RightScript.itemcheck==true && LeftScript.itemcheck==true && LockScript.itemcheck==true)
         {
             gameObject.GetComponent<BoxCollider>().enabled = true;
+            WinMenu.SetActive(true);
+            Timer.SetActive(false);
         }
     }
 }

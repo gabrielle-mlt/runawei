@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class EventHandler : MonoBehaviour
 {
@@ -44,7 +45,7 @@ public class EventHandler : MonoBehaviour
 
         if (timerScript.fTimer <= 0)
         {
-            
+            SceneManager.LoadScene("GameOver");
         }
     }
 }

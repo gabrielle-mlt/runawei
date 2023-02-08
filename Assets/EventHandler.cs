@@ -6,6 +6,9 @@ using UnityEngine.InputSystem;
 public class EventHandler : MonoBehaviour
 {
     public InputActionReference toggleReference = null;
+    TimerScript timerScript;
+    [SerializeField] GameObject Timer;
+    [SerializeField] GameObject oGameOverMenu;
 
     // Start is called before the first frame update
     private void Awake()
@@ -30,5 +33,18 @@ public class EventHandler : MonoBehaviour
             gameObject.SetActive(true);
         }
         
+    }
+
+    void Start()
+    {
+        timerScript = Timer.GetComponent<TimerScript>();
+    }
+    void Update()
+    {
+
+        if (timerScript.fTimer <= 0)
+        {
+            oGameOverMenu.SetActive(true);
+        }
     }
 }

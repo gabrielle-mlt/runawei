@@ -1686,7 +1686,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 483098940}
   m_LocalRotation: {x: 0.0421283, y: 0.10151207, z: 0.0043026353, w: 0.9939326}
-  m_LocalPosition: {x: 0, y: 0, z: 10.017677}
+  m_LocalPosition: {x: 0, y: 0, z: 92.41769}
   m_LocalScale: {x: 3.5593648, y: 3.5593643, z: 3.5593648}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1695,7 +1695,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 270.0313, y: 122.249466}
+  m_AnchoredPosition: {x: 287.13132, y: 115.249466}
   m_SizeDelta: {x: 24.639, y: 6.4509}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &483098942
@@ -5611,7 +5611,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1459338618}
   m_LocalRotation: {x: 0.042128295, y: 0.101512074, z: 0.0043026367, w: 0.99393266}
-  m_LocalPosition: {x: 0, y: 0, z: 1.2}
+  m_LocalPosition: {x: 0, y: 0, z: 83.6}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5620,7 +5620,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 4.754, y: 11.704, z: 0.984}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 267, y: -3.8}
+  m_AnchoredPosition: {x: 284.1, y: -10.8}
   m_SizeDelta: {x: 125.389, y: 222.189}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1459338620
@@ -6053,7 +6053,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1837033856}
   m_LocalRotation: {x: 0.0421283, y: 0.10151207, z: 0.0043026353, w: 0.9939326}
-  m_LocalPosition: {x: 0, y: 0, z: 19.391998}
+  m_LocalPosition: {x: 0, y: 0, z: 101.79201}
   m_LocalScale: {x: 3.5593648, y: 3.5593643, z: 3.5593648}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6062,7 +6062,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 224.45335, y: 121.45334}
+  m_AnchoredPosition: {x: 241.55338, y: 114.45334}
   m_SizeDelta: {x: 5.0498, y: 5.0498}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1837033858

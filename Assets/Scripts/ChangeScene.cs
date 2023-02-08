@@ -9,7 +9,7 @@ public class ChangeScene : MonoBehaviour
 {
     public void LoadMap()
     {
-        SceneManager.LoadScene("Map");
+        SceneManager.LoadScene("Map_decors");
         Debug.Log("test");
     }
     public void LoadMenu()

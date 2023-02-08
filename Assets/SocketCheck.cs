@@ -5,12 +5,11 @@ using UnityEngine.XR.Interaction.Toolkit;
 
 public class SocketCheck : MonoBehaviour
 {
-    public string TargetTag = string.Empty;
-    [SerializeField] GameObject Left_Shoe;
     public void OnSelectEntering(SelectEnterEventArgs args)
     {
-        var interactor = args.interactorObject;
+        var shooe = args.interactableObject.transform.GetComponent<XRGrabInteractable>();
         Debug.Log("Au revoir");
-
+        shooe.interactionLayers = LayerMask.GetMask("Ungrabable") ;
+        gameObject.GetComponent<XRSocketInteractor>().interactionLayers = LayerMask.GetMask("Ungrabable");
     }
 }

@@ -3,23 +3,28 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class CheckQuest : MonoBehaviour
+public class CheckShoes : MonoBehaviour
 {
-    SocketCheck HolderScript;
-    [SerializeField] GameObject ItemHolder;
+    SocketCheck Left;
+    SocketCheck Right;
+
+    [SerializeField] GameObject ItemHolderLeft;
+    [SerializeField] GameObject ItemHolderRight;
+
     public Sprite newSprite;
 
     // Start is called before the first frame update
     void Start()
     {
-        HolderScript = ItemHolder.GetComponent<SocketCheck>();
+        Left = ItemHolderLeft.GetComponent<SocketCheck>();
+        Right = ItemHolderRight.GetComponent<SocketCheck>();
     }
 
 
     // Update is called once per frame
     void Update()
     {
-        if (HolderScript.itemcheck == true)
+        if (Left.itemcheck == true && Right.itemcheck==true)
         {
             gameObject.GetComponent<Image>().sprite = newSprite;
         }

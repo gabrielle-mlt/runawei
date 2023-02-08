@@ -21,6 +21,14 @@ public class EventHandler : MonoBehaviour
 
     private void Toggle(InputAction.CallbackContext context)
     {
-        gameObject.SetActive(false);
+        if(gameObject.activeSelf)
+        {
+            gameObject.SetActive(false);
+        }
+        else
+        {
+            gameObject.SetActive(true);
+        }
+        
     }
 }

@@ -7,12 +7,14 @@ using UnityEngine.SceneManagement;
 
 public class ChangeScene : MonoBehaviour
 {
-    public void changeScene(string sName)
+    public void LoadMap()
     {
-        SceneManager.LoadScene(sName);
-
-        // if scene === "map"
-        // reset map
+        SceneManager.LoadScene("Map");
+        Debug.Log("test");
+    }
+    public void LoadMenu()
+    {
+        SceneManager.LoadScene("StartingScene");
     }
 
     public void ExitPressed()

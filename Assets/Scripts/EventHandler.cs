@@ -44,7 +44,7 @@ public class EventHandler : MonoBehaviour
 
         if (timerScript.fTimer <= 0)
         {
-            oGameOverMenu.SetActive(true);
+            
         }
     }
 }
